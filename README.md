@@ -1,3 +1,4 @@
 <p align="center">
-## Laravel Blog sitesi
+Laravel Blog sitesi
 </p>
+## Laravel Blog Sitesi
