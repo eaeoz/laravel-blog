@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('url');
             $table->longText('content');
             $table->integer('hit')->default(0);
-            $table->integer('status')->default(0)->comment('0:pasif 1:aktif');
+            $table->integer('status')->default(1)->comment('0:pasif 1:aktif');
             $table->string('slug');
             $table->softDeletes();
             $table->timestamps();
