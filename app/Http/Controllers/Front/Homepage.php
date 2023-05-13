@@ -84,7 +84,7 @@ class Homepage extends Controller
         Message: '.$request->message.'
         Message Date: '.now().'', function ($message) use($request){
             $message->from('hello@example.com', 'John Doe');
-            $message->to('sedatergoz@gmail.com');
+            $message->to('mail@sedat.cf');
             $message->subject($request->name,' sent message!');
         });
 
